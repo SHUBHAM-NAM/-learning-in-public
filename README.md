@@ -63,7 +63,7 @@ Over the next 6-8 months, I'm building strong fundamentals in **backend developm
 | 4 | Pattern programming (cont.) | 10 problems |
 | 5 | Functions | Concepts + practice |
 
-📺 [Week 1 video](link)
+📺 [Week 1 video] (<a href="https://youtu.be/Y3mtlks2TB8">youtube</a>)
 
 </details>
 
