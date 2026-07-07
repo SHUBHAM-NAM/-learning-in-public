@@ -1,43 +1,78 @@
-# Learning in Public 🚀
+# Hi, I'm Shubham 👋
 
-Hey, I'm Shubham — a BCA grad learning backend development, DSA, and AI from scratch, out in the open.
+**BCA Graduate | Backend Development & DSA | Building in Public**
 
-For the next 6-8 months, I'm documenting everything here: what I build, what I break, what I learn.
-Follow the full journey on [YouTube]https://youtube.com/@20supgrade?si=f0CLYliimDG3aYg- | [Twitter] | [LinkedIn]https://www.linkedin.com/in/shubham-choudhary-638337346
+I'm documenting my journey from zero to job-ready backend developer — publicly, on GitHub, YouTube, Twitter, and LinkedIn. This repo is my open build log: real code, real mistakes, real progress.
+
+📺 [YouTube](your-link) &nbsp;|&nbsp; 🐦 [Twitter](your-link) &nbsp;|&nbsp; 💼 [LinkedIn](your-link)
 
 ---
 
+## 🎯 What I'm Doing
+
+Over the next 6-8 months, I'm building strong fundamentals in **backend development** and **data structures & algorithms**, while sharing everything I learn in public — including the mistakes, not just the wins.
+
+**Current focus:**
+- Backend development (Node.js, Express, REST APIs)
+- Data Structures & Algorithms (problem-solving, patterns, core concepts)
+- Foundational AI concepts
+
+**Why in public:** Consistency is easier to prove than to claim. This repo, my commits, and my weekly videos are a running record of exactly how I'm progressing — not a resume claim, but evidence.
+
+---
+
+## 🛠️ Tech Stack
+
+`JavaScript` `Node.js` `Express.js` `HTTP/REST` `Git & GitHub`
 
 
-## 📁 Structure
 
-```
-learning-in-public/
-├── README.md
-├── backend/
-│   ├── day1-http-basics/
-│   ├── day2-request-response-ports-methods/
-│   ├── day3-first-http-server/
-│   ├── day4-todo-app-get-post-delete/
-│   └── day5-calculator-params-middleware/
-├── dsa/
-│   ├── day1-programming-basics/
-│   ├── day2-while-loop/
-│   ├── day3-pattern-programming/
-│   ├── day4-pattern-programming-2/
-│   └── day5-functions/
-├── ai-basics/
-│   └── notes.md
-└── logs/
-    └── week1.md
-```
+---
 
-## 🎯 Goal
+## 🚀 Featured Projects
 
-Go from zero to job-ready, in public, while improving public speaking and fitness along the way.
+| Project | Description | Code |
+|---|---|---|
+| **Todo App (File-based)** | CRUD todo application using GET, POST, DELETE methods with file-based storage | [`/backend/day4-todo-app`](./backend/day4-todo-app-get-post-delete) |
+| **Calculator API** | Frontend takes user input, sends it to a backend API, and displays the calculated result — covers params, query params, and middleware | [`/backend/day5-calculator`](./backend/day5-calculator-params-middleware) |
 
-## 📺 Weekly Videos
+*(Add a short GIF or screenshot of each project here once you have one — recruiters skim visuals before they read code.)*
 
-| Week | Video |
-|------|-------|
-| Week 1 | [Watch]https://youtu.be/Y3mtlks2TB8 |
+---
+
+## 📈 Progress Log
+
+<details>
+<summary><b>Week 1</b> — Backend fundamentals + DSA basics</summary>
+
+**Backend**
+| Day | Topics | Built |
+|---|---|---|
+| 1 | HTTP basics | Notes |
+| 2 | Request-response model, ports, methods | Notes + experiments |
+| 3 | First HTTP server, response handling | Basic HTTP server |
+| 4 | GET, POST, DELETE methods | Todo app |
+| 5 | Params, query params, middleware | Calculator app |
+
+**DSA**
+| Day | Topics | Practice |
+|---|---|---|
+| 1 | Programming basics | Concepts |
+| 2 | While loop | 5 problems |
+| 3 | Pattern programming | Multiple patterns |
+| 4 | Pattern programming (cont.) | 10 problems |
+| 5 | Functions | Concepts + practice |
+
+📺 [Week 1 video](link)
+
+</details>
+
+<!-- Add a new <details> block for each week -->
+
+---
+
+## 📬 Open to
+
+Backend development internships/roles, collaboration on projects, and connecting with other developers learning in public.
+
+Reach out on [LinkedIn](your-link) or [Twitter](your-link) — always happy to talk shop.
