@@ -1,6 +1,6 @@
 # Learning in Public 🚀
 
-Hey, I'm Shubham — a BCA grad learning backend development, DSA, and AI from scratch, out in the open.
+Hey, I'm Shubham — a grad learning backend development, DSA, and AI from scratch, out in the open.
 
 For the next 6-8 months, I'm documenting everything here: what I build, what I break, what I learn.
 Follow the full journey on [YouTube]https://youtube.com/@20supgrade?si=f0CLYliimDG3aYg- | [Twitter] | [LinkedIn]https://www.linkedin.com/in/shubham-choudhary-638337346

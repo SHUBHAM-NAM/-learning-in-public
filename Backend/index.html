@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .response{
+        font-size: xx-large;
+        color: blue;
+    }
+</style>
+</head>
+<body>
+ 
+<input type="text" placeholder="enter the first value" id="first">
+<input type="text" placeholder="enter the second value" id="second">
+<button  class="add">SUM</button>
+<button class="sub">SUB</button>
+<button class="mul">MUL</button>
+<button class="dev">DEV</button>
+<div class="response" >
+
+</div>
+    <script>
+    async function sum() {
+       const first_value = document.getElementById('first').value;
+       const second_value = document.getElementById('second').value;
+       const res = await fetch(`http://localhost:3000/sum/${first_value}/${second_value}`);
+       const result = await res.json();
+       document.querySelector('.response').innerHTML ="Result is: " + result.ans;
+    }
+    async function sub() {
+       const first_value = document.getElementById('first').value;
+       const second_value = document.getElementById('second').value;
+       const res = await fetch(`http://localhost:3000/sub/${first_value}/${second_value}`);
+       const result = await res.json();
+       document.querySelector('.response').innerHTML ="Result is: " + result.ans;
+    }
+ async function mul() {
+       const first_value = document.getElementById('first').value;
+       const second_value = document.getElementById('second').value;
+       const res = await fetch(`http://localhost:3000/mul/${first_value}/${second_value}`);
+       const result = await res.json();
+       document.querySelector('.response').innerHTML ="Result is: " + result.ans;
+    }
+     async function dev() {
+       const first_value = document.getElementById('first').value;
+       const second_value = document.getElementById('second').value;
+       const res = await fetch(`http://localhost:3000/dev/${first_value}/${second_value}`);
+       const result = await res.json();
+       document.querySelector('.response').innerHTML ="Result is: " + result.ans;
+    }
+    document.querySelector('.add').addEventListener('click', sum);
+     document.querySelector('.sub').addEventListener('click', sub);
+      document.querySelector('.mul').addEventListener('click', mul);
+       document.querySelector('.dev').addEventListener('click', dev);
+    </script>
+</body>
+</html>
