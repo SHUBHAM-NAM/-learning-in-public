@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h2>SignUP Page</h2>
+        <input id="signUp_name" type="text" placeholder="enter your name">
+        <input id="signUp_email" type="email" placeholder="enter your email">
+        <input id="signUp_pass" type="password" placeholder="enter your password">
+        <button id="signUp_btn">Sign Up!</button>
+    </div>
+    <script>
+        function signUp_detail(){
+            const name=document.getElementById('signUp_name').value;
+            const email=document.getElementById('signUp_email').value;
+            const password=document.getElementById('signUp_pass').value;
+            return {
+                data:{
+                 name,
+                email,
+                password
+                }
+               
+            };
+        }
+
+        const data=document.getElementById('signUp_btn');
+        data.addEventListener('click', function () {
+            localStorage.setItem(`${signUp_detail().data.name}`,
+             JSON.stringify(signUp_detail().data)
+            )
+        });
+    </script>
+</body>
+</html>

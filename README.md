@@ -4,7 +4,7 @@
 
 I'm documenting my journey from zero to job-ready backend developer — publicly, on GitHub, YouTube, Twitter, and LinkedIn. This repo is my open build log: real code, real mistakes, real progress.
 
-📺 [YouTube](your-link) &nbsp;|&nbsp; 🐦 [Twitter](your-link) &nbsp;|&nbsp; 💼 [LinkedIn](your-link)
+📺 [YouTube] &nbsp;|&nbsp; 🐦 [Twitter] &nbsp;|&nbsp; 💼 [LinkedIn]
 
 ---
 
@@ -27,7 +27,7 @@ Over the next 6-8 months, I'm building strong fundamentals in **backend developm
 
 
 
----
+<!-- ---
 
 ## 🚀 Featured Projects
 
@@ -38,7 +38,7 @@ Over the next 6-8 months, I'm building strong fundamentals in **backend developm
 
 *(Add a short GIF or screenshot of each project here once you have one — recruiters skim visuals before they read code.)*
 
----
+--- -->
 
 ## 📈 Progress Log
 
@@ -53,6 +53,7 @@ Over the next 6-8 months, I'm building strong fundamentals in **backend developm
 | 3 | First HTTP server, response handling | Basic HTTP server |
 | 4 | GET, POST, DELETE methods | Todo app |
 | 5 | Params, query params, middleware | Calculator app |
+| 6 | middleware  | create an request counter middleware |
 
 **DSA**
 | Day | Topics | Practice |
@@ -62,8 +63,27 @@ Over the next 6-8 months, I'm building strong fundamentals in **backend developm
 | 3 | Pattern programming | Multiple patterns |
 | 4 | Pattern programming (cont.) | 10 problems |
 | 5 | Functions | Concepts + practice |
+| 6 | Array | Concepts + practice |
 
 📺 [Week 1 video] (<a href="https://youtu.be/Y3mtlks2TB8">youtube</a>)
+
+</details>
+<details>
+<summary><b>Week 2</b> — Backend fundamentals + DSA basics</summary>
+
+**Backend**
+| Day | Topics | Built |
+|---|---|---|
+| 1 | HTTP basics | Notes |
+
+
+**DSA**
+| Day | Topics | Practice |
+|---|---|---|
+| 1 | Programming basics | Concepts |
+
+
+📺 [Week 1 video] (<a href="">youtube</a>)
 
 </details>
 

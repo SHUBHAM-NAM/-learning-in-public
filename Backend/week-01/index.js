@@ -1,9 +1,23 @@
+const { time } = require('console');
 const express = require('express');
 const path = require('path');
+let request_count=0;
+
 
 const app = express();
+function request_middleware(req,res,next){
+  let timestramp=new Date().toISOString();
+  res.send(`<h1> ${req.method}, ${req.url},${timestramp}`)
+  request_count++;
+    next();
+
+};
 
 app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'index.html'));
+
+});
+app.get('/request',request_middleware, (req, res) => {
     res.sendFile(path.join(__dirname, 'index.html'));
 });
 
