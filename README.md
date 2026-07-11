@@ -4,7 +4,7 @@
 
 I'm documenting my journey from zero to job-ready backend developer — publicly, on GitHub, YouTube, Twitter, and LinkedIn. This repo is my open build log: real code, real mistakes, real progress.
 
-📺 [YouTube] &nbsp;|&nbsp; 🐦 [Twitter] &nbsp;|&nbsp; 💼 [LinkedIn]
+📺 <a href="https://youtu.be/Y3mtlks2TB8">youtube</a>&nbsp;|&nbsp; 🐦<a href="https://x.com/shubhamjsx">X_twitter</a> &nbsp;|&nbsp; 💼<a href="https://www.linkedin.com/in/shubham-choudhary-638337346">Linkdin</a>
 
 ---
 
