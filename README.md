@@ -74,16 +74,16 @@ Over the next 6-8 months, I'm building strong fundamentals in **backend developm
 **Backend**
 | Day | Topics | Built |
 |---|---|---|
-| 1 | HTTP basics | Notes |
-
+| 1 | Axios vs Fatch | login/logout API |
+| 2 | Authentication | single user notes application |
 
 **DSA**
 | Day | Topics | Practice |
 |---|---|---|
-| 1 | Programming basics | Concepts |
 
 
-📺 [Week 1 video] (<a href="">youtube</a>)
+
+📺 [Week 2 video] (<a href="https://youtu.be/ydskj3ixadc">youtube</a>)
 
 </details>
 
@@ -95,4 +95,4 @@ Over the next 6-8 months, I'm building strong fundamentals in **backend developm
 
 Backend development internships/roles, collaboration on projects, and connecting with other developers learning in public.
 
-Reach out on [LinkedIn](your-link) or [Twitter](your-link) — always happy to talk shop.
+Reach out on <a href="https://www.linkedin.com/in/shubham-choudhary-638337346">Linkdin</a> or <a href="https://x.com/shubhamjsx">X_twitter</a>.
